@@ -56,7 +56,8 @@ selfcore-frame/
 │   └── step7-check.md         STEP 7: 일관성 점검·완료
 ├── 2_templates/           ← 결과물 출력 형식
 │   ├── selfcore-output.md     STEP 4 결과물 형식
-│   └── expression-output.md   STEP 7 결과물 형식
+│   ├── expression-output.md   STEP 7 결과물 형식
+│   └── profile-base-template.md  기초자료 정리 템플릿 (초기화 시 Claude가 참조)
 └── 3_examples/            ← 완성 예시
     └── example-leetaewon.md   이태원쌤 완성 예시
 ```
