@@ -39,16 +39,16 @@ selfcore-frame/
 ├── README.md                   ← 사람용 안내 (GitHub 페이지)
 │
 ├── 1_process/                  ← Claude가 각 단계에서 참조하는 행동 지침
-│   ├── step1-xyz.md            STEP 1 — XYZ 인터뷰 진행 방식
-│   ├── step2-mission.md        STEP 2 — 미션 선언문 생성 방식
-│   ├── step3-golden-circle.md  STEP 3 — Why/How/What 인터뷰 방식
-│   ├── step3a-why-unclear.md   STEP 3 분기 — Why가 흐릿할 때
-│   ├── step4-summary.md        STEP 4 — 셀프코어 정리 및 출력
-│   ├── step5-role.md           STEP 5 — Role 도출
-│   ├── step6-expression.md     STEP 6 — Identity/Slogan/Message 생성
-│   └── step7-check.md          STEP 7 — 일관성 검증
+│   ├── step1-xyz.md        ★  STEP 1 — XYZ 인터뷰 진행 방식
+│   ├── step2-mission.md       STEP 2 — 미션 선언문 생성 방식
+│   ├── step3-golden-circle.md STEP 3 — Why/How/What 인터뷰 방식
+│   ├── step3a-why-unclear.md  STEP 3 분기 — Why가 흐릿할 때
+│   ├── step4-summary.md       STEP 4 — 셀프코어 정리 및 출력
+│   ├── step5-role.md          STEP 5 — Role 도출
+│   ├── step6-expression.md    STEP 6 — Identity/Slogan/Message 및 서브카피 생성
+│   └── step7-check.md         STEP 7 — 일관성 검증
 │
-├── 2_templates/           ← 결과물 출력 형식
+├── 2_templates/                ← 결과물 출력 형식
 │   ├── selfcore-output.md     STEP 4 결과물 형식
 │   ├── expression-output.md   STEP 7 결과물 형식
 │   └── profile-base-template.md  기초자료 정리 템플릿 (초기화 시 Claude가 참조)

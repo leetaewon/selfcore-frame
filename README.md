@@ -43,23 +43,27 @@
 
 ```
 selfcore-frame/
-├── CLAUDE.md              ← Claude용 전체 지침 (트리거·초기화·흐름)
-├── README.md              ← 이 파일
-├── 1_process/             ← 단계별 Claude 행동 지침
-│   ├── step1-xyz.md           STEP 1: XYZ 질문
-│   ├── step2-mission.md       STEP 2: 미션 선언문 생성·확정
-│   ├── step3-golden-circle.md STEP 3: 골든 서클 질문
-│   ├── step3a-why-unclear.md  STEP 3 분기: Why 흐릿할 때
-│   ├── step4-summary.md       STEP 4: 셀프코어 정리·출력
-│   ├── step5-role.md          STEP 5: Role 도출
-│   ├── step6-expression.md    STEP 6: 웹사이트 표현 세트
-│   └── step7-check.md         STEP 7: 일관성 점검·완료
-├── 2_templates/           ← 결과물 출력 형식
+│
+├── CLAUDE.md                   ← 이 파일. Claude용 저장소 전체 안내
+├── README.md                   ← 사람용 안내 (GitHub 페이지)
+│
+├── 1_process/                  ← Claude가 각 단계에서 참조하는 행동 지침
+│   ├── step1-xyz.md        ★  STEP 1 — XYZ 인터뷰 진행 방식
+│   ├── step2-mission.md       STEP 2 — 미션 선언문 생성 방식
+│   ├── step3-golden-circle.md STEP 3 — Why/How/What 인터뷰 방식
+│   ├── step3a-why-unclear.md  STEP 3 분기 — Why가 흐릿할 때
+│   ├── step4-summary.md       STEP 4 — 셀프코어 정리 및 출력
+│   ├── step5-role.md          STEP 5 — Role 도출
+│   ├── step6-expression.md    STEP 6 — Identity/Slogan/Message 및 서브카피 생성
+│   └── step7-check.md         STEP 7 — 일관성 검증
+│
+├── 2_templates/                ← 결과물 출력 형식
 │   ├── selfcore-output.md     STEP 4 결과물 형식
 │   ├── expression-output.md   STEP 7 결과물 형식
 │   └── profile-base-template.md  기초자료 정리 템플릿 (초기화 시 Claude가 참조)
-└── 3_examples/            ← 완성 예시
-    └── example-leetaewon.md   이태원쌤 완성 예시
+│
+└── 3_examples/                 ← 완성 예시 (사용자에게 제시할 때 참조)
+    └── example-leetaewon.md   이태원쌤 셀프코어 전체 예시
 ```
 
 ---
