@@ -29,9 +29,8 @@
 - Message — 방문자에게 건네는 첫 마디
 
 **Brizy Story** (셀프코어 완성 후)
-- 모바일 명함 — 링크 하나로 나를 소개하는 세로형 슬라이드
-- 서비스 소개 · 교육 랜딩페이지 · 포트폴리오 등
-- 셀프코어를 바탕으로 Claude가 템플릿 추천과 슬라이드 가이드 제공
+- 모바일 명함 / 교육 랜딩페이지 / 서비스 소개 / 포트폴리오
+- 용도별 가이드에 따라 콘텐츠 설계 → 템플릿 선정 → 슬라이드 가이드 생성
 
 ---
 
@@ -51,7 +50,7 @@
 ```
 selfcore-frame/
 │
-├── CLAUDE.md                   ← 이 파일. Claude용 저장소 전체 안내
+├── CLAUDE.md                   ← Claude용 저장소 전체 안내
 ├── README.md                   ← 사람용 안내 (GitHub 페이지)
 │
 ├── 1_process/                  ← Claude가 각 단계에서 참조하는 행동 지침
@@ -72,9 +71,13 @@ selfcore-frame/
 ├── 3_examples/                 ← 완성 예시 (사용자에게 제시할 때 참조)
 │   └── example-leetaewon.md   이태원쌤 셀프코어 전체 예시
 │
-└── 4_brizy/                    ← Brizy Story 참조 자료
-    ├── brizy-story-templates.md  템플릿 전체 분석 (58개 템플릿 슬라이드 구조)
-    └── brizy-story-guide.md      활용 방안 및 용도별 추천
+└── 4_brizy/
+    ├── brizy-story-guide.md        Brizy Story 활용 방안 및 용도별 추천
+    ├── brizy-story-templates.md    템플릿 전체 분석 (58개 슬라이드 구조)
+    ├── guide-mobile-card.md        모바일 명함 제작 가이드 (절차 + 템플릿 선정)
+    ├── guide-edu-landing.md        교육 랜딩페이지·커리큘럼 소개 제작 가이드
+    ├── guide-service-intro.md      서비스 소개 제작 가이드
+    └── guide-portfolio.md          포트폴리오 제작 가이드
 ```
 
 ---

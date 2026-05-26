@@ -57,9 +57,13 @@ selfcore-frame/
 ├── 3_examples/                 ← 완성 예시 (사용자에게 제시할 때 참조)
 │   └── example-leetaewon.md   이태원쌤 셀프코어 전체 예시
 │
-└── 4_brizy/                    ← Brizy Story 참조 자료 (정보형)
-    ├── brizy-story-templates.md  템플릿 전체 분석 (58개 템플릿 슬라이드 구조)
-    └── brizy-story-guide.md      활용 방안 및 용도별 추천
+└── 4_brizy/                    ← Brizy Story 참조 자료
+    ├── brizy-story-guide.md        활용 방안 및 용도별 추천
+    ├── brizy-story-templates.md    템플릿 전체 분석 (58개 템플릿 슬라이드 구조)
+    ├── guide-mobile-card.md        모바일 명함 — 콘텐츠 설계·템플릿 선정·가이드 생성 절차
+    ├── guide-edu-landing.md        교육 랜딩페이지·커리큘럼 소개 — 동일 절차
+    ├── guide-service-intro.md      서비스 소개 — 동일 절차
+    └── guide-portfolio.md          포트폴리오 — 동일 절차
 ```
 
 ---
@@ -265,10 +269,15 @@ STEP 3 진행 중 사용자가 Why에 막히는 신호를 보낼 때:
 ### Brizy Story 활용 요청 시
 
 사용자가 Brizy Story 관련 요청을 할 때 (예: "Brizy 템플릿 추천해줘", "모바일 명함 만들고 싶어", "랜딩페이지 어떤 템플릿 써야 해"):
-1. `4_brizy/brizy-story-templates.md`로 템플릿 구조를 파악한다
-2. `4_brizy/brizy-story-guide.md`로 용도별 추천 기준을 파악한다
-3. 프로젝트 지식에 등록된 사용자의 셀프코어(selfcore.md 또는 profile-base.md)를 참조한다
-4. 셀프코어 내용을 기반으로 용도에 맞는 템플릿을 추천하고, 슬라이드별 입력 내용을 안내한다
+1. 용도에 맞는 가이드 파일을 먼저 참조한다
+   - 모바일 명함 → `4_brizy/guide-mobile-card.md`
+   - 교육 랜딩페이지·커리큘럼 소개 → `4_brizy/guide-edu-landing.md`
+   - 서비스 소개 → `4_brizy/guide-service-intro.md`
+   - 포트폴리오 → `4_brizy/guide-portfolio.md`
+   - 용도가 불분명하면 → `4_brizy/brizy-story-guide.md`로 용도를 먼저 파악한다
+2. 가이드 파일의 절차에 따라 진행한다 (콘텐츠 설계 → 템플릿 선정 → 슬라이드 가이드 생성)
+3. 템플릿 선정 시 `4_brizy/brizy-story-templates.md`에서 후보를 분석한다
+4. 셀프코어(selfcore.md 또는 profile-base.md)를 참조해 내용을 채운다
 
 셀프코어가 아직 완성되지 않은 경우 셀프코어 작업을 먼저 완료할 것을 안내한다.
 
